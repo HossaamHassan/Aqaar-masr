@@ -194,6 +194,26 @@ select:focus {
 }
 /* End Sign In */
 
+/* Start Call Us */
+.call-us form input {
+    caret-color: var(--main-color);
+}
+
+.call-us form input::placeholder {
+    font-size: 13px;
+}
+
+.call-us form input:focus,
+.call-us form textarea {
+    outline: none;
+}
+
+.call-us form select {
+    font-size: 13px;
+    padding: 0.2rem;
+}
+/* End Call Us */
+
 /* Start Footer */
 .footer {
     background:url(../img/footer.jpg) no-repeat;
