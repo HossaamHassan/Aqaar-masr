@@ -82,58 +82,57 @@
           </div>
           <form action="" class="form d-flex justify-content-around gap-3 flex-column flex-lg-row flex-md-row shadow bg-white rounded p-3 position-absolute">
             <div class="btn sec-main-btn d-block d-lg-none d-md-none">اضافة عقار جديد</div>
-            <select class="border ps-1 pe-1 text-center" aria-label="Default select example">
-                <option selected>الغرض</option>
-                <option value="1">بيع</option>
-                <option value="2">شراء</option>
-                <option value="3">ايجار</option>
-              </select>
-              <select class="border ps-1 pe-1 text-center" aria-label="Default select example">
-                <div>Hossam</div>
-                <option selected>نوع العقار</option>
-                <option value="1">شقق</option>
-                <option value="2">محلات</option>
-                <option value="3">ادارى</option>
-                <option value="5">مبانى</option>
-                <option value="6">شاليهات</option>
-              </select>
-              <select class="border ps-1 pe-1 text-center" aria-label="Default select example">
-                <option selected>المحافظة</option>
-                <option value="1">الغربية</option>
-                <option value="2">الإسكندرية</option>
-                <option value="3">الإسماعيلية</option>
-                <option value="4">كفر الشيخ</option>
-                <option value="5">أسوان</option>
-                <option value="6">أسيوط</option>
-                <option value="7">الأقصر</option>
-                <option value="8">الوادي الجديد</option>
-                <option value="9">شمال سيناء</option>
-                <option value="10">البحيرة</option>
-                <option value="11">بني سويف</option>
-                <option value="12">بورسعيد</option>
-                <option value="13">البحر الأحمر</option>
-                <option value="14">الجيزة</option>
-                <option value="15">الدقهلية</option>
-                <option value="16">جنوب سيناء</option>
-                <option value="17">دمياط</option>
-                <option value="18">سوهاج</option>
-                <option value="19">السويس</option>
-                <option value="20">الشرقية</option>
-                <option value="21">الغربية</option>
-                <option value="22">الفيوم</option>
-                <option value="23">القاهرة</option>
-                <option value="24">القليوبية</option>
-                <option value="25">قنا</option>
-                <option value="26">مطروح</option>
-                <option value="27">المنوفية</option>
-                <option value="28">المنيا</option>
-              </select>
-              <select class="border ps-1 pe-1 text-center" aria-label="Default select example">
-                <option selected>اختيار المنطقة</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+            <div class="dropdown">
+              <button class="btn border dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                الغرض
+              </button>
+              <ul class="dropdown-menu w-100 text-end" aria-labelledby="dropdownMenuButton1">
+                <li><input class="border d-block m-auto" type="search" name="" id=""></li>
+                <li><a class="dropdown-item" href="#">بيع</a></li>
+                <li><a class="dropdown-item" href="#">شراء</a></li>
+                <li><a class="dropdown-item" href="#">ايجار</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button class="btn border dropdown-toggle w-100" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                نوع العقار
+              </button>
+              <ul class="dropdown-menu w-100 text-end" aria-labelledby="dropdownMenuButton1">
+                <li><input class="border d-block m-auto" type="search" name="" id=""></li>
+                <li><a class="dropdown-item" href="#">شقق</a></li>
+                <li><a class="dropdown-item" href="#">محلات</a></li>
+                <li><a class="dropdown-item" href="#">ادارى</a></li>
+                <li><a class="dropdown-item" href="#">اراضى</a></li>
+                <li><a class="dropdown-item" href="#">مبانى</a></li>
+                <li><a class="dropdown-item" href="#">سكن الطلبة</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button class="btn border dropdown-toggle w-100 text-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                المحافظة
+              </button>
+              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                <li><input class="border d-block m-auto" type="search" name="" id=""></li>
+                <li><a class="dropdown-item" href="#">بيع</a></li>
+                <li><a class="dropdown-item" href="#">شراء</a></li>
+                <li><a class="dropdown-item" href="#">ايجار</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button class="btn border dropdown-toggle w-100 text-end" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                اختيار المنطقة
+              </button>
+              <ul class="dropdown-menu w-100" aria-labelledby="dropdownMenuButton1">
+                <li><input class="border d-block m-auto" type="search" name="" id=""></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+                <li><a class="dropdown-item" href="#"></a></li>
+              </ul>
+            </div>
+            <div class="search d-flex gap-2">
+              <input class="border rounded" type="search" name="" id="">
+              <i class="fa-solid fa-magnifying-glass p-2 rounded bg-danger pill text-white d-flex align-items-center"></i>
+            </div>
           </form>
     </div>
     <!-- End Slider -->
@@ -311,7 +310,6 @@
     <!-- End Footer -->
     <!-- End Advertisement -->
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/all.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
