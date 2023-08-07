@@ -25,6 +25,12 @@ ul {
     list-style: none;
 }
 
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
 .main-btn {
     border: 1px solid var(--main-color);
     background-color: var(--third-color);
@@ -46,6 +52,8 @@ ul {
     background-color: var(--main-color);
     color: var(--third-color);
 }
+
+
 /* Start Header */
 img {
     height: 60px;
@@ -68,10 +76,10 @@ img {
 /* Start Slider */
 .form {
     width: 65%;
-    position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 100;
 }
 .form input {
     width: 90%;
@@ -509,13 +517,13 @@ img {
 @media (max-width: 768px) {
     .form {
         width: 100%;
-        top: 140%;
+        top: 138%;
     }
     select {
         width: 100%;
     }
     .advertisement {
-        margin-top: 24rem;
+        margin-top: 26rem;
     }
     .company h4 a {
         font-size: 1.4rem;
@@ -539,5 +547,4 @@ img {
         display: none;
     }
 }
-
 
