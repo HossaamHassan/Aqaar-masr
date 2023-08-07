@@ -368,6 +368,8 @@ img {
 .demo {
     opacity: 0.6;
     transition: var(--main-transition);
+    border-radius: 8px;
+    cursor: pointer;
 }
 
     .active,
@@ -530,7 +532,7 @@ img {
     }
 
     .slider .big-img {
-        height: 30%;
+        height: 50vh;
     }
     .footer {
         height: 60vh;
