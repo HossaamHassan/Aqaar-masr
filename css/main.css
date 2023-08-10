@@ -289,13 +289,6 @@ ul {
 .offer .slider {
     width: 75%;
 }
-
-.offer .slider .slide {
-    background-color: #eee;
-    -webkit-box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
-    -moz--webkit-box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
-    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
-}
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
