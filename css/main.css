@@ -436,9 +436,11 @@ ul {
 
 /* End Info */
 
-/* Start Ads */
-
-/* End Ads */
+/* Start Profile */
+.profile .user i {
+    padding-bottom: 3px;
+}
+/* End Profile */
 
 /* Start Footer */
 .footer {
