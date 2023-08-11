@@ -265,25 +265,29 @@ ul {
 }
 /* End Sign In */
 
-/* Start Call Us */
-.call-us form input {
+/* Start Call Us And Sign Up */
+.call-us form input, 
+.sign-up form input{
     caret-color: var(--main-color);
 }
 
-.call-us form input::placeholder {
+.call-us form input::placeholder, 
+.sign-up form input::placeholder{
     font-size: 13px;
 }
 
 .call-us form input:focus,
-.call-us form textarea {
+.call-us form textarea, 
+.sign-up form input:focus{
     outline: none;
 }
 
-.call-us form select {
+.call-us form select, 
+.sign-up form select{
     font-size: 13px;
     padding: 0.2rem;
 }
-/* End Call Us */
+/* End Call Us And Sign-up */
 
 /* Start Info */
 .offer .slider {
