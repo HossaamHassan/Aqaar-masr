@@ -442,6 +442,26 @@ ul {
 }
 /* End Profile */
 
+/* Start Order */
+.order .orders {
+    background-color: #eee;
+    -webkit-box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+    -moz--webkit-box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+
+.order .orders .pic img {
+    width: 150px;
+    border: 5px solid white;
+}
+
+.order .orders .desc p {
+    width: 200px;
+    font-size: 12px;
+}
+
+/* End Order */
+
 /* Start Footer */
 .footer {
     background:url(../img/footer.jpg) no-repeat;
@@ -524,6 +544,26 @@ ul {
         width: 90%;
     }
 
+    .order .orders {
+        gap: 3rem;
+    }
+
+    .order .orders h5 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+
+    .order .orders .pic img {
+        width: 100px;
+    }
+
+    .order .orders .status {
+        width: 228px;
+        font-size: 0.7rem;
+    }
+
     .offer .slider {
         width: 100%;
         margin-bottom: 2rem;
@@ -557,6 +597,23 @@ ul {
 
     .slider .big-img {
         height: 50vh;
+    }
+
+    .order .orders {
+        flex-direction: column;
+        gap: 0.7rem;
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .order .orders .pic a {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+    .order .orders .pic img {
+        width: 150px;
     }
     .footer {
         height: 60vh;
