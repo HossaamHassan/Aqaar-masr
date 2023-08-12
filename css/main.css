@@ -450,6 +450,16 @@ ul {
     box-shadow: 0 12px 20px 0 rgb(0 0 0 / 13%), 0 2px 4px 0 rgb(0 0 0 / 12%);
 }
 
+.order .orders .pic a {
+    background-color: #eee;
+    transition: var(--main-transition);
+}
+
+.order .orders .pic a:hover {
+    background-color: var(--main-color);
+    color: var(--third-color);
+}
+
 .order .orders .pic img {
     width: 150px;
     border: 5px solid white;
@@ -603,7 +613,7 @@ ul {
         flex-direction: column;
         gap: 0.7rem;
         text-align: center;
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
 
@@ -615,6 +625,17 @@ ul {
     .order .orders .pic img {
         width: 150px;
     }
+
+    .order .orders .desc p {
+        font-size: 16px;
+        width: 225px;
+    }
+
+    .order .orders h5, 
+    .order .orders .status{
+        font-size: inherit;
+    }
+    
     .footer {
         height: 60vh;
     }
